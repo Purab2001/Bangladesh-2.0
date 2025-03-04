@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh 2.0</title>
+    <!-- Tailwind & Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .fira-sans {
+            font-family: "Fira Sans", serif;
+        }    
+    </style>
+</head>
+
+<body class="fira-sans bg-[#F5F5F5]">
+    <header>
+        <!-- Navbar -->
+        <nav class="px-4 md:px-16 lg:px-32 py-4 md:py-6">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <a href="#" class="text-xl md:text-2xl lg:text-3xl font-bold">Bangladesh 2.0</a>
+                
+                <!-- Sign In Button -->
+                <button class="btn font-semibold text-[#006A50] border-[#006A50] px-4 md:px-8 
+                             hover:bg-[#006A50] hover:text-white transition-all">
+                    Sign In
+                </button>
+            </div>
+        </nav>        
+        <!-- Header -->
+        <section class="px-4 md:px-16 lg:px-32">
+            <div class="hero bg-[#C6E4D6] py-10 md:py-14 lg:py-20 rounded-3xl">
+                <div class="hero-content flex flex-col lg:flex-row-reverse items-center gap-8">
+                    <!-- Image -->
+                    <img src="assets/hero.png" class="w-full max-w-xs md:max-w-md lg:max-w-lg lg:w-1/2" />
+        
+                    <!-- Text Content -->
+                    <div class="text-center lg:text-left">
+                        <h1 class="text-xl md:text-2xl lg:text-3xl text-[#0E0E0E] text-opacity-50 font-medium">
+                            Box Office News!
+                        </h1>
+                        <p class="py-4 md:py-6 text-3xl md:text-4xl lg:text-5xl font-bold">
+                            Idea, innovation,<br>
+                            vision and challenges in<br> New Bangladesh.
+                        </p>
+                        <button class="btn font-semibold bg-[#006A50] text-white px-4 md:px-6 lg:px-8 
+                                       hover:bg-white hover:text-[#006A50] transition-all duration-300">
+                            Explore New Bangladesh
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </header>    
+    <main class="px-4 md:px-32">
+        <!-- Pillars of Bangladesh -->
+        <section class="py-10 md:py-20">
+            <h1 class="font-bold text-4xl">Pillars of "Bangladesh 2.0"</h1>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6 text-center">
+                    <img src="assets/card-icon.png" alt="Innovation Icon" class="mx-auto">
+                    <h2 class="text-xl font-bold py-4">Innovation</h2>
+                    <p class="text-gray-500">Driving progress through creative ideas and technological advancements.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6 text-center">
+                    <img src="assets/card-icon.png" alt="Sustainability Icon" class="mx-auto">
+                    <h2 class="text-xl font-bold py-4">Sustainability</h2>
+                    <p class="text-gray-500">Balancing development with environmental responsibility for future generations.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6 text-center">
+                    <img src="assets/card-icon.png" alt="Infrastructure Icon" class="mx-auto">
+                    <h2 class="text-xl font-bold py-4">Infrastructure</h2>
+                    <p class="text-gray-500">Enhancing transportation, energy, and communication for economic growth.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-lg border border-gray-200 p-6 text-center">
+                    <img src="assets/card-icon.png" alt="Empowerment Icon" class="mx-auto">
+                    <h2 class="text-xl font-bold py-4">Empowerment</h2>
+                    <p class="text-gray-500">Providing skills, resources, and opportunities for individual and collective growth.</p>
+                </div>
+            </div>
+        </section>       
+        <!-- Vision of Future -->
+        <section class="py-10 md:py-20">
+            <h1 class="font-bold text-4xl animate-fadeIn">Vision of Future</h1>
+            <p class="text-gray-500 my-6 animate-fadeIn delay-200">
+                Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.
+            </p>
+        
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-8">
+                <!-- Card 1 -->
+                <div class="bg-blue-500 bg-opacity-20 rounded-xl p-6 text-center transform transition duration-500 hover:scale-105 animate-slideUp">
+                    <img class="pb-2 mx-auto" src="assets/card-icon.png" alt="Digital Transformation Icon">
+                    <h2 class="text-xl font-bold my-4">Digital Transformation</h2>
+                    <p class="text-gray-500">Creating a nationwide digital ecosystem to enhance connectivity and access to services for all citizens.</p>
+                    <button class="px-4 py-2 bg-blue-500 text-white rounded-md font-semibold mt-4 transition-transform hover:scale-110">Learn More</button>
+                </div> 
+                <!-- Card 2 -->
+                <div class="bg-green-500 bg-opacity-20 rounded-xl p-6 text-center transform transition duration-500 hover:scale-105 animate-slideUp delay-100">
+                    <img class="pb-2 mx-auto" src="assets/card-icon.png" alt="Green Energy Icon">
+                    <h2 class="text-xl font-bold my-4">Green Energy</h2>
+                    <p class="text-gray-500 mb-6">Investments in solar and wind energy to ensure a sustainable and eco-friendly future.</p>
+                    <button class="px-4 py-2 bg-green-600 text-white rounded-md font-semibold mt-4 transition-transform hover:scale-110">Learn More</button>
+                </div> 
+                <!-- Card 3 -->
+                <div class="bg-yellow-500 bg-opacity-20 rounded-xl p-6 text-center transform transition duration-500 hover:scale-105 animate-slideUp delay-200">
+                    <img class="pb-2 mx-auto" src="assets/card-icon.png" alt="Modern Infrastructure Icon">
+                    <h2 class="text-xl font-bold my-4">Modern Infrastructure</h2>
+                    <p class="text-gray-500">Building state-of-the-art infrastructure to support economic growth and global competitiveness.</p>
+                    <button class="px-4 py-2 bg-yellow-500 text-white rounded-md font-semibold mt-4 transition-transform hover:scale-110">Learn More</button>
+                </div> 
+            </div>
+        
+            <!-- Yunus Quote -->
+            <div class="bg-white rounded-xl border border-gray-200 p-6 relative animate-fadeIn delay-300">
+                <img class="absolute left-4 top-4 opacity-10 w-12 h-12" src="assets/quote-bg.png" alt="Quote Background">
+                <p class="text-gray-500 mt-6">
+                    "I strongly believe that we can create a poverty-free world, if we want to. In that kind of world, the only place you can see poverty is in the museum. When school children will be on a tour of the poverty museum, they will be horrified to see the misery and indignity of human beings. They will blame their forefathers for tolerating this inhuman condition to continue in a massive way."
+                </p>
+                <h4 class="font-semibold text-xl mt-4">Dr. Muhammad Yunus</h4>
+                <p class="text-gray-500">Chief Adviser of the People's Republic of Bangladesh</p>
+            </div>
+        </section>        
+        <!-- Your Opinion Matters -->
+        <section class="survey-section py-10 md:py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold mb-6 animate-fadeIn">Your Opinion Matters</h2>
+                <div class="bg-white rounded-xl p-6 shadow-lg animate-slideUp">
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full bg-white border border-gray-300">
+                            <thead class="bg-green-500 bg-opacity-20 border border-green-500">
+                                <tr>
+                                    <th class="py-4 px-6 text-xl text-center w-4/5">Questions</th>
+                                    <th class="py-4 px-6 text-xl text-center w-1/5">Select Your Opinion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Question 1 -->
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="py-4 px-6 border border-gray-300">Do you believe Bangladesh is on the right path toward becoming a developed nation?</td>
+                                    <td class="py-4 px-6 border border-gray-300 text-center">
+                                        <div class="w-full flex justify-center">
+                                            <select class="w-full min-w-[180px] max-w-[200px] py-2 px-3 text-lg border border-gray-400 rounded bg-green-500 bg-opacity-20 hover:bg-opacity-30 focus:ring focus:ring-green-300 transition">
+                                                <option>Yes, I Agree</option>
+                                                <option>No, I Disagree</option>
+                                                <option>Neutral</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- Question 2 -->
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="py-4 px-6 border border-gray-300">Should Bangladesh invest more in renewable energy sources?</td>
+                                    <td class="py-4 px-6 border border-gray-300 text-center">
+                                        <div class="w-full flex justify-center">
+                                            <select class="w-full min-w-[180px] max-w-[200px] py-2 px-3 text-lg border border-gray-400 rounded bg-green-500 bg-opacity-20 hover:bg-opacity-30 focus:ring focus:ring-green-300 transition">
+                                                <option>Yes, Absolutely</option>
+                                                <option>No, Other Areas Are Priority</option>
+                                                <option>Not Sure</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- Question 3 -->
+                                <tr class="hover:bg-gray-100 transition">
+                                    <td class="py-4 px-6 border border-gray-300">Do you support further digital transformation initiatives in Bangladesh?</td>
+                                    <td class="py-4 px-6 border border-gray-300 text-center">
+                                        <div class="w-full flex justify-center">
+                                            <select class="w-full min-w-[180px] max-w-[200px] py-2 px-3 text-lg border border-gray-400 rounded bg-green-500 bg-opacity-20 hover:bg-opacity-30 focus:ring focus:ring-green-300 transition">
+                                                <option>Yes, It's Necessary</option>
+                                                <option>No, There Are Other Priorities</option>
+                                                <option>Neutral</option>
+                                            </select>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>               
+        <!-- Recent News -->
+        <section class="py-12">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl font-bold mb-6 animate-fadeIn">Recent News</h1>
+                <p class="text-gray-500 mb-10 animate-fadeIn delay-200">
+                    Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, 
+                    promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, 
+                    digital transformation, and robust infrastructure, the country is set to become a global model of development.
+                </p>
+        
+                <!-- News Cards -->
+                <div class="space-y-8">
+                    <!-- Card 1 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 animate-slideUp">
+                        <div class="flex flex-col lg:flex-row items-center lg:items-start gap-6">
+                            <img src="assets/satelite.png" class="w-full max-w-[350px] rounded-lg shadow-lg" alt="Satellite">
+                            <div class="mt-1">
+                                <h2 class="text-3xl font-bold">Bangladesh Launches New Satellite</h2>
+                                <img src="assets/al-jazeera.png" alt="News Source" class="my-2">
+                                <p class="text-gray-500">Date: 05/01/2025 &nbsp; | &nbsp; Time: 10:25 PM</p>
+                                <p class="py-4 text-gray-500 leading-relaxed">
+                                    Not until the creation and maintenance of decent conditions of life for all people 
+                                    are recognized and accepted as a common obligation of all people and all countries—only then 
+                                    can we truly speak of humankind as civilized.
+                                </p>
+                                <button class="btn bg-green-700 text-white px-6 py-2 rounded-lg hover:bg-opacity-75 transition">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card 2 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 animate-slideUp">
+                        <div class="flex flex-col lg:flex-row-reverse items-center lg:items-start gap-6">
+                            <img src="assets/satelite.png" class="w-full max-w-[350px] rounded-lg shadow-lg" alt="Satellite">
+                            <div class="mt-1">
+                                <h2 class="text-3xl font-bold">Bangladesh Expands Space Program</h2>
+                                <img src="assets/al-jazeera.png" alt="News Source" class="my-2">
+                                <p class="text-gray-500">Date: 06/01/2025 &nbsp; | &nbsp; Time: 3:15 PM</p>
+                                <p class="py-4 text-gray-500 leading-relaxed">
+                                    As Bangladesh takes its next steps in space exploration, the country is investing in 
+                                    advanced satellite technology to boost telecommunications and meteorological research.
+                                </p>
+                                <button class="btn bg-green-700 text-white px-6 py-2 rounded-lg hover:bg-opacity-75 transition">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card 3 -->
+                    <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all transform hover:scale-105 animate-slideUp">
+                        <div class="flex flex-col lg:flex-row items-center lg:items-start gap-6">
+                            <img src="assets/satelite.png" class="w-full max-w-[350px] rounded-lg shadow-lg" alt="Satellite">
+                            <div class="mt-1">
+                                <h2 class="text-3xl font-bold">New Investments in Space Technology</h2>
+                                <img src="assets/al-jazeera.png" alt="News Source" class="my-2">
+                                <p class="text-gray-500">Date: 07/01/2025 &nbsp; | &nbsp; Time: 12:10 PM</p>
+                                <p class="py-4 text-gray-500 leading-relaxed">
+                                    The government is pushing forward new policies to enhance Bangladesh's presence 
+                                    in space technology, aiming to create high-tech job opportunities and drive digital advancements.
+                                </p>
+                                <button class="btn bg-green-700 text-white px-6 py-2 rounded-lg hover:bg-opacity-75 transition">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- Donate Today -->
+        <section class="py-10 md:py-20">
+            <h1 class="text-4xl font-bold mb-4 text-center">Donate Today</h1>
+            <p class="text-gray-500 mb-8 text-center">
+                Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, 
+                promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, 
+                digital transformation, and robust infrastructure.
+            </p>
+        
+            <!-- Donation Amount Selection -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 px-10 mb-6">
+                <!-- Donation Cards -->
+                <div class="donation-card bg-white rounded-xl py-10 border border-gray-200 cursor-pointer hover:bg-green-500 hover:bg-opacity-20 transition-all" data-amount="100">
+                    <h1 class="text-3xl font-bold text-center">100 Taka</h1>
+                </div>
+                <div class="donation-card bg-green-500 bg-opacity-20 rounded-xl py-10 border border-gray-200 cursor-pointer hover:bg-green-500 hover:bg-opacity-50 transition-all" data-amount="200">
+                    <h1 class="text-3xl font-bold text-center">200 Taka</h1>
+                </div>
+                <div class="donation-card bg-white rounded-xl py-10 border border-gray-200 cursor-pointer hover:bg-green-500 hover:bg-opacity-20 transition-all" data-amount="500">
+                    <h1 class="text-3xl font-bold text-center">500 Taka</h1>
+                </div>
+                <div class="donation-card bg-white rounded-xl py-10 border border-gray-200 cursor-pointer hover:bg-green-500 hover:bg-opacity-20 transition-all" data-amount="1000">
+                    <h1 class="text-3xl font-bold text-center">1000 Taka</h1>
+                </div>
+            </div>
+        
+            <!-- Custom Donation Amount Input -->
+            <div class="text-center mb-6">
+                <input type="text" id="customAmount" class="border border-gray-300 rounded-lg p-4 w-3/4 text-center focus:ring-2 focus:ring-green-500" 
+                       placeholder="Other Amount (Taka)">
+            </div>
+        
+            <!-- Donate Button -->
+            <div class="text-center">
+                <button class="btn bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-all">Donate Now</button>
+            </div>
+        </section>
+        <!-- Newsletter -->
+        <section class="bg-green-500 bg-opacity-20 rounded-xl py-20">
+            <h1 class="text-4xl font-bold text-center">Subscribe Newsletter</h1>
+            <p class="text-gray-500 text-center mt-6">
+                Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, 
+                promoting inclusive growth.
+            </p>
+        
+            <!-- Subscription Form -->
+            <div class="flex flex-col sm:flex-row justify-center items-center mt-6 gap-3 sm:gap-0">
+                <input type="email" class="border border-gray-300 rounded-lg sm:rounded-r-none sm:border-r-0 w-4/5 sm:w-3/5 px-6 py-3 
+                       focus:ring-2 focus:ring-green-500 transition-all" 
+                       placeholder="Enter Your Email">
+                <button class="btn bg-green-700 text-white px-10 py-3 rounded-lg sm:rounded-l-none hover:bg-green-600 transition-all">
+                    Subscribe
+                </button>
+            </div>
+        
+            <p class="text-center text-gray-500 mt-6">We promise not to spam you!</p>
+        </section>        
+    </main>
+    <footer class="footer footer-horizontal footer-center bg-white text-base-content rounded p-10 mt-10">
+        <h2 class="font-bold text-2xl">Bangladesh 2.0</h2>
+        <hr class="border-t-2 border-gray-200 w-3/4">
+        <nav>
+          <div class="grid grid-flow-col gap-4">
+            <img src="assets/facebook.png" alt="">
+            <img src="assets/instagram.png" alt="">
+            <img src="assets/x.png" alt="">
+          </div>
+        </nav>
+    </footer>
+
+    <script>
+        // JavaScript to highlight selected amount box
+        document.querySelectorAll('.donation-card').forEach(card => {
+            card.addEventListener('click', function() {
+                // Remove active class from all cards
+                document.querySelectorAll('.donation-card').forEach(c => c.classList.remove('bg-green-500', 'bg-opacity-50'));
+                // Add active class to clicked card
+                this.classList.add('bg-green-500', 'bg-opacity-50');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const donationCards = document.querySelectorAll(".donation-card");
+            const customAmount = document.getElementById("customAmount");
+    
+            donationCards.forEach(card => {
+                card.addEventListener("click", function () {
+                    // Remove selection from other cards
+                    donationCards.forEach(c => c.classList.remove("border-green-500", "bg-green-500", "bg-opacity-30"));
+                    // Highlight selected card
+                    this.classList.add("border-green-500", "bg-green-500", "bg-opacity-30");
+                    // Clear custom input
+                    customAmount.value = "";
+                });
+            });
+    
+            customAmount.addEventListener("input", function () {
+                // Deselect all cards if custom amount is typed
+                donationCards.forEach(c => c.classList.remove("border-green-500", "bg-green-500", "bg-opacity-30"));
+            });
+        });
+    </script>
+</body>
+
+</html>
